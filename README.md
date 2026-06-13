@@ -1,16 +1,90 @@
-# React + Vite
+# 🎬 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Netflix-inspired movie browsing application built using React, Vite, and Axios. This project recreates the core Netflix UI experience with dynamic movie categories, featured banners, and responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Dynamic movie banner section
+* Movie categories displayed in rows
+* Responsive user interface
+* Component-based React architecture
+* Data fetching using Axios
+* React Hooks (`useState`, `useEffect`)
+* Clean and modern UI
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript (ES6+)
+* Axios
+* CSS3
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── Components/
+│   ├── Banner/
+│   ├── Header/
+│   └── Movies/
+├── Constants/
+├── Datas/
+├── assets/
+├── App.jsx
+├── axios.jsx
+└── main.jsx
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rinshuDeveloper/netflix-clone-react.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd netflix-clone-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📚 What I Learned
+
+* Building reusable React components
+* Managing state with React Hooks
+* Fetching and displaying data dynamically
+* Conditional rendering
+* Organizing React projects efficiently
+* Working with Git and GitHub
+
+## 🔮 Future Improvements
+
+* Movie search functionality
+* Trailer playback support
+* Authentication system
+* Integration with a real movie API (TMDB)
+* Improved UI animations
+
+## 👨‍💻 Author
+
+**Rinshad**
+
+GitHub: https://github.com/rinshuDeveloper
+
+## 📄 License
+
+This project is created for educational and learning purposes.
