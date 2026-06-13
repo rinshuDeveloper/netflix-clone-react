@@ -1,0 +1,37 @@
+.row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.posts{
+    display: flex;             /* Aligns children in a row */
+  overflow-x: auto;          /* Enables horizontal scrolling */
+  overflow-y: hidden;        /* Hides vertical overflow */
+  width: 80%;               /* Restricts width to container boundary */
+  gap: 16px;                 /* Space between cards */
+  padding: 10px;
+}
+
+.row-heading{
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+    margin: 50px 50px;
+}
+
+.posts::-webkit-scrollbar{
+    display: none;
+}
+.movies{
+  /* flex: 0 0 250px;           Crucial: Prevents cards from shrinking. Sets fixed width. */
+  max-height: 250px;
+  height: auto;
+  background-color: #3498db;
+}
+
+.actionMovies{
+  max-height: 150px;
+  height: auto;
+  background-color: #3498db;
+}

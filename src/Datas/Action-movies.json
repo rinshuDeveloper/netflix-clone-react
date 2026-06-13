@@ -1,0 +1,68 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "John Wick",
+      "year": 2014,
+      "genre": "Action",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+      "description": "A retired hitman seeks vengeance against those who wronged him."
+    },
+    {
+      "id": 2,
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "genre": "Action",
+      "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1",
+      "description": "In a post-apocalyptic wasteland, Max joins rebels escaping a tyrant."
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genre": "Action",
+      "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c",
+      "description": "Batman faces his greatest challenge in the form of the Joker."
+    },
+    {
+      "id": 4,
+      "title": "Mission: Impossible - Fallout",
+      "year": 2018,
+      "genre": "Action",
+      "image": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1",
+      "description": "Ethan Hunt races against time to prevent a global catastrophe."
+    },
+    {
+      "id": 5,
+      "title": "Extraction",
+      "year": 2020,
+      "genre": "Action",
+      "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26",
+      "description": "A mercenary undertakes a dangerous mission to rescue a kidnapped boy."
+    },
+    {
+      "id": 6,
+      "title": "Gladiator",
+      "year": 2000,
+      "genre": "Action",
+      "image": "https://images.unsplash.com/photo-1460881680858-30d872d5b530",
+      "description": "A betrayed Roman general seeks revenge against a corrupt emperor."
+    },
+    {
+      "id": 7,
+      "title": "Top Gun: Maverick",
+      "year": 2022,
+      "genre": "Action",
+      "image": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+      "description": "A legendary pilot returns to train a new generation of aviators."
+    },
+    {
+      "id": 8,
+      "title": "The Equalizer",
+      "year": 2014,
+      "genre": "Action",
+      "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728",
+      "description": "A former operative uses his skills to protect the innocent."
+    }
+  ]
+}
