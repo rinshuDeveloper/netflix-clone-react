@@ -35,3 +35,18 @@
   height: auto;
   background-color: #3498db;
 }
+
+.yt-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20%; /* 16:9 */
+  height: 0;
+}
+
+.yt-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  /* height: 100% !important; */
+}
